@@ -5,8 +5,8 @@ while loop:
     if max.isdigit():
         max = int(max)
 
-    ep_no = random.randint(1,max+1)
-    print(ep_no)
+    Num = random.randint(1,max+1)
+    print(Num)
     "\n"
     again = input("generate again? (y/n):  ").lower()
     if again == "y":
